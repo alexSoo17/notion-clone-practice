@@ -15,5 +15,5 @@ This project is a simplified version of Notion Clone, demonstrating how to creat
 
 1. Clone the project locally
    ```bash
-   git clone https://github.com/your-username/notion-clone.git
+   git clone git@github.com:alexSoo17/notion-clone-practice.git
    ```
