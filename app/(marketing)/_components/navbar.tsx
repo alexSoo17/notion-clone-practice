@@ -2,7 +2,8 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { useScrollTop } from "@/hooks/use-scroll-top";
 import { cn } from "@/lib/utils";
-import { Logo } from "./Logo";
+import { Logo } from "./logo";
+import Login from "./login";
 
 const NavBar = () => {
   const scrolled = useScrollTop();
@@ -14,8 +15,9 @@ const NavBar = () => {
       )}
     >
       <Logo />
-      <div className="md:ml-auto md:justify-end justify-between w-full flex items-center gap-x-2">
+      <div className="md:ml-auto md:justify-end justify-between w-full flex items-center gap-x-5">
         <ModeToggle />
+        <Login />
       </div>
     </div>
   );
